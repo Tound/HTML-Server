@@ -1,0 +1,35 @@
+<!--- Print Page V1.0 --->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="desciption" content="Big Dawgs Web Server">
+    <meta name="version" content="1.1">
+    <meta name="author" content="Big Dawgs inc">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title> Big Dawgs Server </title>
+    <link rel="stylesheet" href="indexStyle.css">
+</head>
+
+<body>
+    <h1> Big Dawgs 3D Prints </h1>
+    <div class="navbar">
+        <button type="button" onclick="document.location='index.html'">Home</button>
+        <button type="button" onclick="document.location='about.html'">About</button>
+        <button type="button" onclick="document.location='storage.html'">Storage</button>
+        <button type="button" onclick="document.location='extras.html'">Extras</button>
+        <button type="button" onclick="document.location='stuff.html'">Stuff</button>
+    </div>
+    <h2>Live Print feed</h2>
+    <div class="printfeed">
+        <svg width="1280" height ="720"> 
+            <rect id="placeholder" width="1280" height="720"/>
+        </svg>
+    </div>
+
+</body>
+
+</html>
